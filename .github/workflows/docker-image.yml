@@ -28,7 +28,7 @@ jobs:
         docker build -t catayp/graphql-docker:1.2.0 .
     - name: Push docker image
       run: |
-        docker push -t catayp/graphql-docker:1.2.0
+        docker push catayp/graphql-docker:1.2.0
 
 
         
